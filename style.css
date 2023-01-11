@@ -1,0 +1,211 @@
+/*Whole Page*/
+
+.fixed-width {
+    width: 940px;
+    margin: 0 auto 0 auto;
+}
+
+
+/*First Section*/
+
+.first-section {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding-bottom: 8em;
+}
+
+.header-logo {
+    float: left;
+    overflow: hidden;
+    top: -100%;
+    left: -100%;
+    font-weight: 900;
+    font-size: 18px;
+    color: #F9FAF8;
+}
+
+.header-menu li {
+    float: right;
+    margin-left: 3rem;
+    list-style-type: none;
+}
+
+.header {
+    padding-top: 1em;
+    padding-bottom: 2em;
+}
+
+.cf {
+    clear: both;
+}
+
+.clearfix:before, .clearfix:after {
+    content: "";
+    display: table;
+}
+
+.page-info h2 {
+    font: #F9FAF8;
+    font-weight: 900;
+    font-size: 48px;
+    margin: 20px auto 5px 0;
+    text-align: left ;
+}
+
+.page-info-container {
+    width: 940px;
+    border: none;
+    display: flex; /*use to set divs contained next to each other*/
+    margin: 40px auto 10px auto;
+}
+
+.page-info p {
+    margin: 5px 10px 5px 0;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.page-info {
+    flex: 1; /*use to put div next to each other*/
+    margin: 10px 5px 10px 0;
+}
+
+.first-button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: none;
+    border-radius: 5px;
+    width: 24%;
+    padding: 0.5em;
+}
+
+.main-image img {
+    width: 470px; /*use to put the other div next the previous div*/
+    margin: 20px 0 10px 5px;
+}
+
+/*Second Section*/
+
+.second-header  {
+    font-size: 36px; 
+    color: #1F2937;
+    font-weight: 900;
+    text-align: center;
+    margin: 30px auto 30px auto;
+}
+
+.box {
+    border: solid #3882F6;
+    border-radius: 10px;  /*rounds out the corners of box*/
+    width: 130px;
+    height: 125px;
+
+}
+
+.second-content {
+    display: flex;
+    justify-content: space-evenly;
+    width: 750px;
+    height: 250px;
+    padding-top: 20px;
+    padding-left: 80px;
+    padding-right: 20px;
+    padding-bottom: 0; 
+}
+
+.first-item div:first-child {
+    flex: 1;
+    border-left: 1;
+}
+
+.fourth-item div:last-child {
+    flex: 4;
+    border-right: 0;
+}
+
+.second-content p {
+    padding-top: 10px;
+    text-align-last: center;
+}
+
+/*Third Section*/
+
+.third-section {
+    background-color: #e5e7eb;
+    padding: 80px;
+}
+
+#quote {
+    font-style:  italic;
+    font-size: 31px;
+    color: #1F2937;
+    width: 650px;
+    padding: 0;
+    margin-left: 20px;
+}
+
+.third-section-content {
+    width: 650px;
+}
+
+
+.third-section-content p:last-child {
+    font-weight: bold;
+    font-size: 20px;
+    font-style: normal;
+    text-align-last: right;
+
+}
+
+/*Fourth Section*/
+
+.fourth-section {
+    background-color: #F9FAF8;
+    padding: 60px;
+}
+
+.fourth-content {
+    width: 900px;
+    padding: 0.5em;
+    margin: 1.5em;
+    display: flex;
+}
+
+.fourth-container {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 25px;
+}
+
+.fourth-content-text b {
+    font-weight: bolder;
+    flex: 1;
+}
+
+.second-button {
+    width: 400px;
+    padding: 0.1em;
+}
+
+.second-button button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-color: #F9FAF8;
+    float: right;
+    border-radius: 5px;
+    width: 24%;
+    padding: 0.5em;
+}
+
+/*Footer*/
+
+.footer {
+    background-color: #1F2937;
+    font: 18px;
+    color: #e5e7eb
+}
+
+.footer p {
+    text-align: center;
+    padding: 20px;
+}
